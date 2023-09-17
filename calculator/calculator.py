@@ -11,3 +11,9 @@ def divide(x, y):
     if y == 0:
         return "Undefined (division by zero)"
     return x / y
+
+def modulus(x, y):
+    """Calculate the modulus (remainder) of two numbers."""
+    if y == 0:
+        return "Cannot divide by zero"
+    return x % y
